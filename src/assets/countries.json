@@ -1,213 +1,693 @@
 {
-    "Countries": [
-      {
-        "name": "India",
-        "states": [
-          {
-            "name": "Andhra Pradesh",
-            "cities": ["Visakhapatnam", "Vijayawada", "Guntur", "Nellore", "Kurnool", "Rajahmundry", "Tirupati", "Kadapa", "Kakinada", "Anantapur"]
-          },
-          {
-            "name": "Arunachal Pradesh",
-            "cities": ["Itanagar", "Naharlagun", "Pasighat", "Tawang", "Ziro", "Bomdila", "Aalo", "Tezu", "Roing", "Khonsa"]
-          },
-          {
-            "name": "Assam",
-            "cities": ["Guwahati", "Silchar", "Dibrugarh", "Jorhat", "Nagaon", "Tinsukia", "Tezpur", "Bongaigaon", "Karimganj", "Sivasagar"]
-          },
-          {
-            "name": "Bihar",
-            "cities": ["Patna", "Gaya", "Bhagalpur", "Muzaffarpur", "Purnia", "Darbhanga", "Bihar Sharif", "Arrah", "Begusarai", "Katihar"]
-          },
-          {
-            "name": "Chhattisgarh",
-            "cities": ["Raipur", "Bhilai", "Bilaspur", "Korba", "Durg", "Rajnandgaon", "Jagdalpur", "Raigarh", "Ambikapur", "Dhamtari"]
-          },
-          {
-            "name": "Goa",
-            "cities": ["Panaji", "Margao", "Vasco da Gama", "Mapusa", "Ponda", "Bicholim", "Curchorem", "Cuncolim", "Valpoi", "Sanquelim"]
-          },
-          {
-            "name": "Gujarat",
-            "cities": ["Ahmedabad", "Surat", "Vadodara", "Rajkot", "Bhavnagar", "Jamnagar", "Junagadh", "Gandhinagar", "Anand", "Navsari"]
-          },
-          {
-            "name": "Haryana",
-            "cities": ["Gurgaon", "Faridabad", "Panipat", "Ambala", "Hisar", "Rohtak", "Karnal", "Sonipat", "Panchkula", "Yamunanagar"]
-          },
-          {
-            "name": "Himachal Pradesh",
-            "cities": ["Shimla", "Dharamshala", "Solan", "Mandi", "Palampur", "Baddi", "Nahan", "Kullu", "Hamirpur", "Chamba"]
-          },
-          {
-            "name": "Jharkhand",
-            "cities": ["Ranchi", "Jamshedpur", "Dhanbad", "Bokaro Steel City", "Deoghar", "Hazaribagh", "Giridih", "Ramgarh", "Phusro", "Gumia"]
-          },
-          {
-            "name": "Karnataka",
-            "cities": ["Bangalore", "Mysore", "Mangalore", "Hubli", "Belgaum", "Davangere", "Bellary", "Bijapur", "Shimoga", "Tumkur", "Udupi"]
-          },
-          {
-            "name": "Kerala",
-            "cities": ["Thiruvananthapuram", "Kochi", "Kozhikode", "Kollam", "Thrissur", "Palakkad", "Alappuzha", "Malappuram", "Kottayam", "Kannur"]
-          },
-          {
-            "name": "Madhya Pradesh",
-            "cities": ["Bhopal", "Indore", "Gwalior", "Jabalpur", "Ujjain", "Sagar", "Ratlam", "Satna", "Rewa", "Murwara"]
-          },
-          {
-            "name": "Maharashtra",
-            "cities": ["Mumbai", "Pune", "Nagpur", "Thane", "Nashik", "Aurangabad", "Solapur", "Amravati", "Kolhapur", "Navi Mumbai", "Kalyan-Dombivli"]
-          },
-          {
-            "name": "Manipur",
-            "cities": ["Imphal", "Thoubal", "Bishnupur", "Churachandpur", "Kakching", "Ukhrul", "Senapati", "Tamenglong", "Jiribam", "Moirang"]
-          },
-          {
-            "name": "Meghalaya",
-            "cities": ["Shillong", "Tura", "Nongstoin", "Jowai", "Baghmara", "Williamnagar", "Resubelpara", "Mairang", "Nongpoh", "Mawkyrwat"]
-          },
-          {
-            "name": "Mizoram",
-            "cities": ["Aizawl", "Lunglei", "Saiha", "Champhai", "Serchhip", "Kolasib", "Lawngtlai", "Mamit", "Saitual", "Hnahthial"]
-          },
-          {
-            "name": "Nagaland",
-            "cities": ["Kohima", "Dimapur", "Mokokchung", "Tuensang", "Wokha", "Zunheboto", "Mon", "Phek", "Kiphire", "Longleng"]
-          },
-          {
-            "name": "Odisha",
-            "cities": ["Bhubaneswar", "Cuttack", "Rourkela", "Berhampur", "Sambalpur", "Puri", "Balasore", "Baripada", "Bhadrak", "Jharsuguda"]
-          },
-          {
-            "name": "Punjab",
-            "cities": ["Ludhiana", "Amritsar", "Jalandhar", "Patiala", "Bathinda", "Hoshiarpur", "Mohali", "Pathankot", "Phagwara", "Moga"]
-          },
-          {
-            "name": "Rajasthan",
-            "cities": ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Bikaner", "Ajmer", "Alwar", "Bhilwara", "Sikar", "Bharatpur"]
-          },
-          {
-            "name": "Sikkim",
-            "cities": ["Gangtok", "Namchi", "Gyalshing", "Mangan", "Rangpo", "Singtam", "Jorethang", "Ravangla", "Yuksom", "Pelling"]
-          },
-          {
-            "name": "Tamil Nadu",
-            "cities": ["Chennai", "Coimbatore", "Madurai", "Tiruchirappalli", "Salem", "Tirunelveli", "Erode", "Vellore", "Thoothukudi", "Dindigul", "Thanjavur"]
-          },
-          {
-            "name": "Telangana",
-            "cities": ["Hyderabad", "Warangal", "Nizamabad", "Khammam", "Karimnagar", "Ramagundam", "Mahbubnagar", "Nalgonda", "Adilabad", "Suryapet"]
-          },
-          {
-            "name": "Tripura",
-            "cities": ["Agartala", "Udaipur", "Dharmanagar", "Kailashahar", "Ambassa", "Belonia", "Khowai", "Melaghar", "Sonamura", "Bishalgarh"]
-          },
-          {
-            "name": "Uttar Pradesh",
-            "cities": ["Lucknow", "Kanpur", "Agra", "Varanasi", "Meerut", "Allahabad", "Bareilly", "Aligarh", "Moradabad", "Ghaziabad", "Noida"]
-          },
-          {
-            "name": "Uttarakhand",
-            "cities": ["Dehradun", "Haridwar", "Roorkee", "Haldwani", "Rudrapur", "Kashipur", "Rishikesh", "Ramnagar", "Nainital", "Pithoragarh"]
-          },
-          {
-            "name": "West Bengal",
-            "cities": ["Kolkata", "Howrah", "Durgapur", "Siliguri", "Asansol", "Rajarhat", "Kharagpur", "Haldia", "Bardhaman", "Darjeeling"]
-          },
-          {
-            "name": "Jammu & Kashmir",
-            "cities": ["Srinagar", "Jammu", "Anantnag", "Baramulla", "Pulwama", "Kathua", "Rajouri", "Poonch", "Udhampur", "Kupwara"]
-          },
-          {
-            "name": "Ladakh",
-            "cities": ["Leh", "Kargil"]
-          }
-        ]
-      },
-      {
-        "name": "USA",
-        "states": [
-          {
-            "name": "California",
-            "cities": ["Los Angeles", "San Francisco", "San Diego", "San Jose", "Fresno", "Sacramento", "Long Beach", "Oakland", "Bakersfield", "Anaheim"]
-          },
-          {
-            "name": "Texas",
-            "cities": ["Houston", "San Antonio", "Dallas", "Austin", "Fort Worth", "El Paso", "Arlington", "Corpus Christi", "Plano", "Laredo"]
-          }
-        ]
-      },
-      {
-        "name": "Canada",
-        "states": [
-          {
-            "name": "Ontario",
-            "cities": ["Toronto", "Ottawa", "Mississauga", "Brampton", "Hamilton", "London", "Markham", "Vaughan", "Kitchener", "Windsor"]
-          },
-          {
-            "name": "British Columbia",
-            "cities": ["Vancouver", "Victoria", "Surrey", "Burnaby", "Richmond", "Kelowna", "Abbotsford", "Coquitlam", "Nanaimo", "Kamloops"]
-          },
-          {
-            "name": "Quebec",
-            "cities": ["Montreal", "Quebec City", "Laval", "Gatineau", "Longueuil", "Sherbrooke", "Saguenay", "Levis", "Trois-Rivieres", "Terrebonne"]
-          }
-        ]
-      },
-      {
-        "name": "Australia",
-        "states": [
-          {
-            "name": "New South Wales",
-            "cities": ["Sydney", "Newcastle", "Wollongong", "Albury", "Maitland", "Wagga Wagga", "Coffs Harbour", "Tamworth", "Orange", "Dubbo"]
-          },
-          {
-            "name": "Victoria",
-            "cities": ["Melbourne", "Geelong", "Ballarat", "Bendigo", "Shepparton", "Melton", "Mildura", "Warrnambool", "Sunbury", "Pakenham"]
-          },
-          {
-            "name": "Queensland",
-            "cities": ["Brisbane", "Gold Coast", "Cairns", "Townsville", "Toowoomba", "Mackay", "Rockhampton", "Bundaberg", "Hervey Bay", "Gladstone"]
-          }
-        ]
-      },
-      {
-        "name": "Germany",
-        "states": [
-          {
-            "name": "Bavaria",
-            "cities": ["Munich", "Nuremberg", "Augsburg", "Regensburg", "Ingolstadt", "Würzburg", "Erlangen", "Bamberg", "Bayreuth", "Passau"]
-          },
-          {
-            "name": "North Rhine-Westphalia",
-            "cities": ["Cologne", "Düsseldorf", "Dortmund", "Essen", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster"]
-          },
-          {
-            "name": "Baden-Württemberg",
-            "cities": ["Stuttgart", "Mannheim", "Karlsruhe", "Freiburg", "Heidelberg", "Ulm", "Pforzheim", "Reutlingen", "Ludwigsburg", "Heilbronn"]
-          }
-        ]
-      },
-      {
-        "name": "United Kingdom",
-        "states": [
-          {
-            "name": "England",
-            "cities": ["London", "Manchester", "Birmingham", "Liverpool", "Leeds", "Sheffield", "Bristol", "Leicester", "Coventry", "Nottingham"]
-          },
-          {
-            "name": "Scotland",
-            "cities": ["Edinburgh", "Glasgow", "Aberdeen", "Dundee", "Inverness", "Stirling", "Paisley", "Perth", "Ayr", "Motherwell"]
-          },
-          {
-            "name": "Wales",
-            "cities": ["Cardiff", "Swansea", "Newport", "Wrexham", "Barry", "Neath", "Cwmbran", "Bridgend", "Llanelli", "Aberystwyth"]
-          }
-        ]
-      }
-    ],
-    "homeTypes": [
+  "Countries": [
+    {
+      "name": "India",
+      "states": [
+        {
+          "name": "Andhra Pradesh",
+          "cities": [
+            "Visakhapatnam",
+            "Vijayawada",
+            "Guntur",
+            "Nellore",
+            "Kurnool",
+            "Rajahmundry",
+            "Tirupati",
+            "Kadapa",
+            "Kakinada",
+            "Anantapur"
+          ]
+        },
+        {
+          "name": "Arunachal Pradesh",
+          "cities": [
+            "Itanagar",
+            "Naharlagun",
+            "Pasighat",
+            "Tawang",
+            "Ziro",
+            "Bomdila",
+            "Aalo",
+            "Tezu",
+            "Roing",
+            "Khonsa"
+          ]
+        },
+        {
+          "name": "Assam",
+          "cities": [
+            "Guwahati",
+            "Silchar",
+            "Dibrugarh",
+            "Jorhat",
+            "Nagaon",
+            "Tinsukia",
+            "Tezpur",
+            "Bongaigaon",
+            "Karimganj",
+            "Sivasagar"
+          ]
+        },
+        {
+          "name": "Bihar",
+          "cities": [
+            "Patna",
+            "Gaya",
+            "Bhagalpur",
+            "Muzaffarpur",
+            "Purnia",
+            "Darbhanga",
+            "Bihar Sharif",
+            "Arrah",
+            "Begusarai",
+            "Katihar"
+          ]
+        },
+        {
+          "name": "Chhattisgarh",
+          "cities": [
+            "Raipur",
+            "Bhilai",
+            "Bilaspur",
+            "Korba",
+            "Durg",
+            "Rajnandgaon",
+            "Jagdalpur",
+            "Raigarh",
+            "Ambikapur",
+            "Dhamtari"
+          ]
+        },
+        {
+          "name": "Goa",
+          "cities": [
+            "Panaji",
+            "Margao",
+            "Vasco da Gama",
+            "Mapusa",
+            "Ponda",
+            "Bicholim",
+            "Curchorem",
+            "Cuncolim",
+            "Valpoi",
+            "Sanquelim"
+          ]
+        },
+        {
+          "name": "Gujarat",
+          "cities": [
+            "Ahmedabad",
+            "Surat",
+            "Vadodara",
+            "Rajkot",
+            "Bhavnagar",
+            "Jamnagar",
+            "Junagadh",
+            "Gandhinagar",
+            "Anand",
+            "Navsari"
+          ]
+        },
+        {
+          "name": "Haryana",
+          "cities": [
+            "Gurgaon",
+            "Faridabad",
+            "Panipat",
+            "Ambala",
+            "Hisar",
+            "Rohtak",
+            "Karnal",
+            "Sonipat",
+            "Panchkula",
+            "Yamunanagar"
+          ]
+        },
+        {
+          "name": "Himachal Pradesh",
+          "cities": [
+            "Shimla",
+            "Dharamshala",
+            "Solan",
+            "Mandi",
+            "Palampur",
+            "Baddi",
+            "Nahan",
+            "Kullu",
+            "Hamirpur",
+            "Chamba"
+          ]
+        },
+        {
+          "name": "Jharkhand",
+          "cities": [
+            "Ranchi",
+            "Jamshedpur",
+            "Dhanbad",
+            "Bokaro Steel City",
+            "Deoghar",
+            "Hazaribagh",
+            "Giridih",
+            "Ramgarh",
+            "Phusro",
+            "Gumia"
+          ]
+        },
+        {
+          "name": "Karnataka",
+          "cities": [
+            "Bangalore",
+            "Mysore",
+            "Mangalore",
+            "Hubli",
+            "Belgaum",
+            "Davangere",
+            "Bellary",
+            "Bijapur",
+            "Shimoga",
+            "Tumkur",
+            "Udupi"
+          ]
+        },
+        {
+          "name": "Kerala",
+          "cities": [
+            "Thiruvananthapuram",
+            "Kochi",
+            "Kozhikode",
+            "Kollam",
+            "Thrissur",
+            "Palakkad",
+            "Alappuzha",
+            "Malappuram",
+            "Kottayam",
+            "Kannur"
+          ]
+        },
+        {
+          "name": "Madhya Pradesh",
+          "cities": [
+            "Bhopal",
+            "Indore",
+            "Gwalior",
+            "Jabalpur",
+            "Ujjain",
+            "Sagar",
+            "Ratlam",
+            "Satna",
+            "Rewa",
+            "Murwara"
+          ]
+        },
+        {
+          "name": "Maharashtra",
+          "cities": [
+            "Mumbai",
+            "Pune",
+            "Nagpur",
+            "Thane",
+            "Nashik",
+            "Aurangabad",
+            "Solapur",
+            "Amravati",
+            "Kolhapur",
+            "Navi Mumbai",
+            "Kalyan-Dombivli"
+          ]
+        },
+        {
+          "name": "Manipur",
+          "cities": [
+            "Imphal",
+            "Thoubal",
+            "Bishnupur",
+            "Churachandpur",
+            "Kakching",
+            "Ukhrul",
+            "Senapati",
+            "Tamenglong",
+            "Jiribam",
+            "Moirang"
+          ]
+        },
+        {
+          "name": "Meghalaya",
+          "cities": [
+            "Shillong",
+            "Tura",
+            "Nongstoin",
+            "Jowai",
+            "Baghmara",
+            "Williamnagar",
+            "Resubelpara",
+            "Mairang",
+            "Nongpoh",
+            "Mawkyrwat"
+          ]
+        },
+        {
+          "name": "Mizoram",
+          "cities": [
+            "Aizawl",
+            "Lunglei",
+            "Saiha",
+            "Champhai",
+            "Serchhip",
+            "Kolasib",
+            "Lawngtlai",
+            "Mamit",
+            "Saitual",
+            "Hnahthial"
+          ]
+        },
+        {
+          "name": "Nagaland",
+          "cities": [
+            "Kohima",
+            "Dimapur",
+            "Mokokchung",
+            "Tuensang",
+            "Wokha",
+            "Zunheboto",
+            "Mon",
+            "Phek",
+            "Kiphire",
+            "Longleng"
+          ]
+        },
+        {
+          "name": "Odisha",
+          "cities": [
+            "Bhubaneswar",
+            "Cuttack",
+            "Rourkela",
+            "Berhampur",
+            "Sambalpur",
+            "Puri",
+            "Balasore",
+            "Baripada",
+            "Bhadrak",
+            "Jharsuguda"
+          ]
+        },
+        {
+          "name": "Punjab",
+          "cities": [
+            "Ludhiana",
+            "Amritsar",
+            "Jalandhar",
+            "Patiala",
+            "Bathinda",
+            "Hoshiarpur",
+            "Mohali",
+            "Pathankot",
+            "Phagwara",
+            "Moga"
+          ]
+        },
+        {
+          "name": "Rajasthan",
+          "cities": [
+            "Jaipur",
+            "Jodhpur",
+            "Udaipur",
+            "Kota",
+            "Bikaner",
+            "Ajmer",
+            "Alwar",
+            "Bhilwara",
+            "Sikar",
+            "Bharatpur"
+          ]
+        },
+        {
+          "name": "Sikkim",
+          "cities": [
+            "Gangtok",
+            "Namchi",
+            "Gyalshing",
+            "Mangan",
+            "Rangpo",
+            "Singtam",
+            "Jorethang",
+            "Ravangla",
+            "Yuksom",
+            "Pelling"
+          ]
+        },
+        {
+          "name": "Tamil Nadu",
+          "cities": [
+            "Chennai",
+            "Coimbatore",
+            "Madurai",
+            "Tiruchirappalli",
+            "Salem",
+            "Tirunelveli",
+            "Erode",
+            "Vellore",
+            "Thoothukudi",
+            "Dindigul",
+            "Thanjavur"
+          ]
+        },
+        {
+          "name": "Telangana",
+          "cities": [
+            "Hyderabad",
+            "Warangal",
+            "Nizamabad",
+            "Khammam",
+            "Karimnagar",
+            "Ramagundam",
+            "Mahbubnagar",
+            "Nalgonda",
+            "Adilabad",
+            "Suryapet"
+          ]
+        },
+        {
+          "name": "Tripura",
+          "cities": [
+            "Agartala",
+            "Udaipur",
+            "Dharmanagar",
+            "Kailashahar",
+            "Ambassa",
+            "Belonia",
+            "Khowai",
+            "Melaghar",
+            "Sonamura",
+            "Bishalgarh"
+          ]
+        },
+        {
+          "name": "Uttar Pradesh",
+          "cities": [
+            "Lucknow",
+            "Kanpur",
+            "Agra",
+            "Varanasi",
+            "Meerut",
+            "Allahabad",
+            "Bareilly",
+            "Aligarh",
+            "Moradabad",
+            "Ghaziabad",
+            "Noida"
+          ]
+        },
+        {
+          "name": "Uttarakhand",
+          "cities": [
+            "Dehradun",
+            "Haridwar",
+            "Roorkee",
+            "Haldwani",
+            "Rudrapur",
+            "Kashipur",
+            "Rishikesh",
+            "Ramnagar",
+            "Nainital",
+            "Pithoragarh"
+          ]
+        },
+        {
+          "name": "West Bengal",
+          "cities": [
+            "Kolkata",
+            "Howrah",
+            "Durgapur",
+            "Siliguri",
+            "Asansol",
+            "Rajarhat",
+            "Kharagpur",
+            "Haldia",
+            "Bardhaman",
+            "Darjeeling"
+          ]
+        },
+        {
+          "name": "Jammu & Kashmir",
+          "cities": [
+            "Srinagar",
+            "Jammu",
+            "Anantnag",
+            "Baramulla",
+            "Pulwama",
+            "Kathua",
+            "Rajouri",
+            "Poonch",
+            "Udhampur",
+            "Kupwara"
+          ]
+        },
+        {
+          "name": "Ladakh",
+          "cities": [
+            "Leh",
+            "Kargil"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "USA",
+      "states": [
+        {
+          "name": "California",
+          "cities": [
+            "Los Angeles",
+            "San Francisco",
+            "San Diego",
+            "San Jose",
+            "Fresno",
+            "Sacramento",
+            "Long Beach",
+            "Oakland",
+            "Bakersfield",
+            "Anaheim"
+          ]
+        },
+        {
+          "name": "Texas",
+          "cities": [
+            "Houston",
+            "San Antonio",
+            "Dallas",
+            "Austin",
+            "Fort Worth",
+            "El Paso",
+            "Arlington",
+            "Corpus Christi",
+            "Plano",
+            "Laredo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "states": [
+        {
+          "name": "Ontario",
+          "cities": [
+            "Toronto",
+            "Ottawa",
+            "Mississauga",
+            "Brampton",
+            "Hamilton",
+            "London",
+            "Markham",
+            "Vaughan",
+            "Kitchener",
+            "Windsor"
+          ]
+        },
+        {
+          "name": "British Columbia",
+          "cities": [
+            "Vancouver",
+            "Victoria",
+            "Surrey",
+            "Burnaby",
+            "Richmond",
+            "Kelowna",
+            "Abbotsford",
+            "Coquitlam",
+            "Nanaimo",
+            "Kamloops"
+          ]
+        },
+        {
+          "name": "Quebec",
+          "cities": [
+            "Montreal",
+            "Quebec City",
+            "Laval",
+            "Gatineau",
+            "Longueuil",
+            "Sherbrooke",
+            "Saguenay",
+            "Levis",
+            "Trois-Rivieres",
+            "Terrebonne"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "states": [
+        {
+          "name": "New South Wales",
+          "cities": [
+            "Sydney",
+            "Newcastle",
+            "Wollongong",
+            "Albury",
+            "Maitland",
+            "Wagga Wagga",
+            "Coffs Harbour",
+            "Tamworth",
+            "Orange",
+            "Dubbo"
+          ]
+        },
+        {
+          "name": "Victoria",
+          "cities": [
+            "Melbourne",
+            "Geelong",
+            "Ballarat",
+            "Bendigo",
+            "Shepparton",
+            "Melton",
+            "Mildura",
+            "Warrnambool",
+            "Sunbury",
+            "Pakenham"
+          ]
+        },
+        {
+          "name": "Queensland",
+          "cities": [
+            "Brisbane",
+            "Gold Coast",
+            "Cairns",
+            "Townsville",
+            "Toowoomba",
+            "Mackay",
+            "Rockhampton",
+            "Bundaberg",
+            "Hervey Bay",
+            "Gladstone"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Germany",
+      "states": [
+        {
+          "name": "Bavaria",
+          "cities": [
+            "Munich",
+            "Nuremberg",
+            "Augsburg",
+            "Regensburg",
+            "Ingolstadt",
+            "Würzburg",
+            "Erlangen",
+            "Bamberg",
+            "Bayreuth",
+            "Passau"
+          ]
+        },
+        {
+          "name": "North Rhine-Westphalia",
+          "cities": [
+            "Cologne",
+            "Düsseldorf",
+            "Dortmund",
+            "Essen",
+            "Duisburg",
+            "Bochum",
+            "Wuppertal",
+            "Bielefeld",
+            "Bonn",
+            "Münster"
+          ]
+        },
+        {
+          "name": "Baden-Württemberg",
+          "cities": [
+            "Stuttgart",
+            "Mannheim",
+            "Karlsruhe",
+            "Freiburg",
+            "Heidelberg",
+            "Ulm",
+            "Pforzheim",
+            "Reutlingen",
+            "Ludwigsburg",
+            "Heilbronn"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "states": [
+        {
+          "name": "England",
+          "cities": [
+            "London",
+            "Manchester",
+            "Birmingham",
+            "Liverpool",
+            "Leeds",
+            "Sheffield",
+            "Bristol",
+            "Leicester",
+            "Coventry",
+            "Nottingham"
+          ]
+        },
+        {
+          "name": "Scotland",
+          "cities": [
+            "Edinburgh",
+            "Glasgow",
+            "Aberdeen",
+            "Dundee",
+            "Inverness",
+            "Stirling",
+            "Paisley",
+            "Perth",
+            "Ayr",
+            "Motherwell"
+          ]
+        },
+        {
+          "name": "Wales",
+          "cities": [
+            "Cardiff",
+            "Swansea",
+            "Newport",
+            "Wrexham",
+            "Barry",
+            "Neath",
+            "Cwmbran",
+            "Bridgend",
+            "Llanelli",
+            "Aberystwyth"
+          ]
+        }
+      ]
+    }
+  ],
+  "homeTypes": [
     "Apartment",
     "Villa",
     "Independent House",
@@ -228,6 +708,31 @@
     "Electricity Bill",
     "Water Bill",
     "Property Tax Receipt"
+  ],
+  "customerList": [
+    {
+      "id": "7783",
+      "firstName": "Varnika",
+      "middleName": "V",
+      "lastName": "N",
+      "email": "v@v.com",
+      "phone": "1234-567890",
+      "address": {
+        "homeType": "Duplex",
+        "line1": "23",
+        "line2": "malleswaram",
+        "line3": "",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "pincode": "1234567"
+      },
+      "addressProof": {
+        "documentType": "Aadhar Card",
+        "documentNumber": "1234567",
+        "aadharNumber": "********7899",
+        "panNumber": "******234F"
+      }
+    }
   ]
-  }
-  
+}
