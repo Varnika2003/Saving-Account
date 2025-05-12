@@ -1,0 +1,75 @@
+<div class="container">
+  <div class="form-container">
+    <div class="form-header">
+      <h2>Select Details</h2>
+      <p class="form-instructions">Please fill in the fields below to proceed.</p>
+    </div>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Country</mat-label>
+      <input matInput [formControl]="countryControl" placeholder="Type country name" [matAutocomplete]="autoCountry">
+      <mat-autocomplete #autoCountry="matAutocomplete" (optionSelected)="selectCountry($event.option.viewValue)">
+        <mat-option *ngFor="let country of filteredCountries" [value]="country">
+          {{ country }}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+
+   
+    <div *ngIf="dropdownSelectedCountry">
+      <mat-form-field appearance="fill">
+        <mat-label>State</mat-label>
+        <input matInput [formControl]="stateControl" placeholder="Type state name" [matAutocomplete]="autoState">
+        <mat-autocomplete #autoState="matAutocomplete" (optionSelected)="selectState($event.option.viewValue)">
+          <mat-option *ngFor="let state of filteredStates" [value]="state">
+            {{ state }}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </div>
+
+   
+    <div *ngIf="dropdownSelectedState">
+      <mat-form-field appearance="fill">
+        <mat-label>City</mat-label>
+        <input matInput [formControl]="cityControl" placeholder="Type city name" [matAutocomplete]="autoCity">
+        <mat-autocomplete #autoCity="matAutocomplete" (optionSelected)="selectCity($event.option.viewValue)">
+          <mat-option *ngFor="let city of filteredCities" [value]="city">
+            {{ city }}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </div>
+
+    
+    <div *ngIf="dropdownSelectedCity">
+      <mat-form-field appearance="fill">
+        <mat-label>Home Type</mat-label>
+        <input matInput [formControl]="homeTypeControl" placeholder="Type home type" [matAutocomplete]="autoHomeType">
+        <mat-autocomplete #autoHomeType="matAutocomplete" (optionSelected)="selectHomeType($event.option.viewValue)">
+          <mat-option *ngFor="let homeType of filteredHomeTypes" [value]="homeType">
+            {{ homeType }}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </div>
+
+    
+    <div *ngIf="dropdownSelectedCity">
+      <mat-form-field appearance="fill">
+        <mat-label>Document Type</mat-label>
+        <input matInput [formControl]="documentTypeControl" placeholder="Type document type" [matAutocomplete]="autoDocumentType">
+        <mat-autocomplete #autoDocumentType="matAutocomplete" (optionSelected)="selectDocumentType($event.option.viewValue)">
+          <mat-option *ngFor="let documentType of filteredDocumentTypes" [value]="documentType">
+            {{ documentType }}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </div>
+
+    
+    <div style="text-align: center; margin-top: 20px;">
+      <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+    </div>
+  </div>
+</div>
